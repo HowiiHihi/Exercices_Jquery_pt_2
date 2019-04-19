@@ -4,7 +4,5 @@ $(function()
   {
     alert('Hello ! Passez une bonne journée !');
   }
-
 );
-
 });

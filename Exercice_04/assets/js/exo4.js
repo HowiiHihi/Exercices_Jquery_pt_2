@@ -16,9 +16,9 @@
 //chercher une méthode plus "light"
 $(function()
 {
-  $('#text', function()
+  $('.color').on('click', function()
   {
-    $('#green').on('click').css('color', 'green');
-
+    var newColor = $(this).attr('id');//On donne à la variable l'id correspondant à la couleur
+    $('#text').css('color', newColor);//On affiche la couleur en utilisant la variable dans le css
   });
 });
